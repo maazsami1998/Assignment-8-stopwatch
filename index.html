@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(47, 98, 209);
+            text-align: center;
+        }
+        h1{
+            color: rgb(47, 98, 209);
+            display: inline-block;
+            width: 100px;
+            background-color: rgb(215, 226, 58);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Stop Watch</h1>
+    </div>
+    <div>
+        <h1 id="min">0</h1>
+        <h1 id="sec">0</h1>
+        <h1 id="msec">0</h1>
+    </div>
+    <div>
+        <button onclick="start()">Start</button>
+        <button onclick="stop()">Pause</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
